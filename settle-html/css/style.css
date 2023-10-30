@@ -409,6 +409,7 @@ button {
      background-repeat: no-repeat;
      padding-top: 90px;
      position: relative;
+     
 }
 
 .about .titlepage h2 {
@@ -417,10 +418,12 @@ button {
 }
 
 .about_img p {
-     font-weight: 400;
+     backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);  
+     font-weight: 500;
      font-size: 17px;
      line-height: 30px;
-     color: #1b1b1c;
+     color: #263745;
      padding: 45px 0px;
 }
 
